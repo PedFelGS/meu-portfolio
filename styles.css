@@ -18,6 +18,18 @@
 }
 
 .header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: #fff;
     font-size: 24px;
+}
+
+.header__menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header__item-link {
+    color: white;
 }
